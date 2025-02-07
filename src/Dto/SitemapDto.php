@@ -3,6 +3,7 @@
 namespace App\Sitemap\Dto;
 
 use DateTime;
+use Exception;
 
 /**
  * DTO-объект, данных карты сайта.
@@ -55,5 +56,23 @@ class SitemapDto
         }
 
         return $var;
+    }
+
+    /**
+     * Создание экземпляра класса и заполнение его данными из переданного массива.
+     *
+     * @param array $properties Список свойств со значениями.
+     * @return $this
+     * @throws Exception Переданного поля не существует.
+     */
+    public static function createInstanceFromArray(array $properties): self
+    {
+        $dto = new static();
+
+        foreach ($properties as $property => $value) {
+            $dto->$property = $value;
+        }
+
+        return $dto;
     }
 }
