@@ -1,0 +1,8 @@
+!.gitignore
+
+vendor/
+composer.lock
+
+## IDE & plugins
+/.idea
+/.phpunit.result.cache
