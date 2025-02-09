@@ -8,7 +8,7 @@
 Усановка библиотеки через Composer
 
 ```bash
-composer require leo37rus/sitemap
+composer require leo37rus/sitemap:dev-main
 ```
 
 ## Требования
