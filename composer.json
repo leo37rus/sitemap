@@ -1,8 +1,7 @@
 {
     "name": "leo37rus/sitemap",
     "description": "Sitemap gen file. File format supports: csv,JSON,xml",
-    "keywords": ["php", "sitemap", "csv","json","xml"],
-    "version": "master",
+    "keywords": ["php", "sitemap", "csv","json","xml"],    
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -18,7 +17,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": "^8.1"
+        "php": "~8.1"
     },
     "prefer-stable": true
 }
