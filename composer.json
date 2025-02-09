@@ -1,5 +1,5 @@
 {
-    "name": "leo37rus/sitemap:dev-main",
+    "name": "leo37rus/sitemap",
     "description": "Sitemap gen file. File format supports: csv,JSON,xml",
     "keywords": ["php", "sitemap", "csv","json","xml"],    
     "type": "library",
